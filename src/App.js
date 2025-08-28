@@ -175,6 +175,25 @@ const App = () => {
                   e.target.style.display = 'none';
                 }}
               />
+              
+              <div className="iss-info-text">
+                <h4>🛰️ Estación Espacial Internacional (ISS)</h4>
+                <p>
+                  La ISS es un laboratorio orbital que orbita la Tierra a <strong>400 km</strong> de altura, 
+                  viajando a <strong>28,000 km/h</strong>. Es el objeto más grande construido por humanos en el espacio, 
+                  con el tamaño de un campo de fútbol americano.
+                </p>
+                
+                <div className="iss-facts">
+                  <h5>🌟 Funciones Principales:</h5>
+                  <ul>
+                    <li>🔬 Investigación científica en microgravedad</li>
+                    <li>👨‍🚀 Estudios sobre el cuerpo humano en el espacio</li>
+                    <li>🚀 Desarrollo de tecnologías espaciales</li>
+                    <li>🌍 Cooperación internacional entre 15 países</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           )}
 

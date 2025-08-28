@@ -147,6 +147,62 @@ body {
   transform: scale(1.05);
 }
 
+/* ISS Info Text Styles */
+.iss-info-text {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border-radius: 15px;
+  border: 1px solid #cbd5e0;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.iss-info-text h4 {
+  color: #2d3748;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.iss-info-text p {
+  color: #4a5568;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.iss-facts h5 {
+  color: #2d3748;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.iss-facts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.iss-facts li {
+  color: #4a5568;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.iss-facts li::before {
+  content: "•";
+  color: #667eea;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
 .last-update {
   margin-bottom: 25px;
   padding: 15px;
