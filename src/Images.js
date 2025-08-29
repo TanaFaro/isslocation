@@ -27,9 +27,6 @@ const Images = ({ image }) => {
                 <div className="image-info">
                     <h3>{image.tags || 'Sin título'}</h3>
                     <div className="image-stats">
-                        <span>❤️ {image.likes || 0}</span>
-                        <span>👁️ {image.views || 0}</span>
-                        <span>💬 {image.comments || 0}</span>
                     </div>
                 </div>
             </div>
