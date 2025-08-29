@@ -4,7 +4,7 @@ import Images from './Images';
 import sateliteImage from './images/satelite.jpg';
 import './App.css';
 
-// App con variables de entorno configuradas - 2025-29/08 17:47 //
+//App actualizada para vercel - 2024-12-19 15:30//
 
 const App = () => {
   const [issPosition, setIssPosition] = useState(null);
@@ -127,7 +127,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="app-header">
-        <h1>🚀 Rastreador de la ISS</h1>
+        <h1>🚀 ISS Location App- vercel test</h1>
         <p>Ubicación en tiempo real de la Estación Espacial Internacional</p>
       </header>
 
