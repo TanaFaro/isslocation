@@ -180,3 +180,37 @@ Este proyecto está bajo la Licencia MIT.
 ---
 
 **Creado por Tana** 🚀
+
+**ultima actualizacion** 2024-12-19 15:30
+
+## 🔄 **Hacer commit y push:**
+
+### **1. Agregar el archivo:**
+```bash
+git add README.md
+```
+
+### **2. Hacer commit:**
+```bash
+git commit -m "Actualización para trigger de Vercel"
+```
+
+### **3. Hacer push:**
+```bash
+git push origin master
+```
+
+## 🎯 **¿Qué pasará después?**
+
+1. **GitHub se actualizará** con el nuevo README
+2. **Vercel detectará el cambio** automáticamente
+3. **Comenzará un nuevo deploy** en tu proyecto
+4. **Tu aplicación estará disponible** en la URL de Vercel
+
+## ❓ **¿Quieres que ejecute estos comandos?**
+
+Puedo ejecutar los comandos de git paso a paso para ti, o si prefieres hacerlo tú mismo, dime cuando esté listo.
+
+**Una vez que hagas el push, Vercel debería empezar a construir tu aplicación automáticamente.** 
+
+¿Quieres que ejecute los comandos o prefieres hacerlo tú?
