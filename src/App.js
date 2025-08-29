@@ -4,6 +4,8 @@ import Images from './Images';
 import sateliteImage from './images/satelite.jpg';
 import './App.css';
 
+// App con variables de entorno configuradas //
+
 const App = () => {
   const [issPosition, setIssPosition] = useState(null);
   const [location, setLocation] = useState('Buscando ubicación...');
