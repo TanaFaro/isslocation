@@ -4,7 +4,7 @@ import Images from './Images';
 import sateliteImage from './images/satelite.jpg';
 import './App.css';
 
-// App con variables de entorno configuradas //
+// App con variables de entorno configuradas - 2025-29/08 17:47 //
 
 const App = () => {
   const [issPosition, setIssPosition] = useState(null);
@@ -18,7 +18,7 @@ const App = () => {
   // Función para obtener la posición actual de la ISS
   const getIssPosition = async () => {
     try {
-      const response = await axios.get('http://api.open-notify.org/iss-now.json');
+      const response = await axios.get('https://api.open-notify.org/iss-now.json');
       const { latitude, longitude } = response.data.iss_position;
       const timestamp = response.data.timestamp;
       
