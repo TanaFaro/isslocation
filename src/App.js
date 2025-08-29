@@ -4,6 +4,8 @@ import Images from './Images';
 import sateliteImage from './images/satelite.jpg';
 import './App.css';
 
+//App actualizada para vercel - 2024-12-19 15:30//
+
 const App = () => {
   const [issPosition, setIssPosition] = useState(null);
   const [location, setLocation] = useState('Buscando ubicación...');
