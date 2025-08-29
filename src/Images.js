@@ -26,11 +26,7 @@ const Images = ({ image }) => {
                 </div>
                 <div className="image-info">
                     <h3>{image.tags || 'Sin título'}</h3>
-                    <div className="image-stats">
-                        <span>❤️ {image.likes || 0}</span>
-                        <span>👁️ {image.views || 0}</span>
-                        <span>💬 {image.comments || 0}</span>
-                    </div>
+                    {/* Estadísticas removidas para interfaz más limpia */}
                 </div>
             </div>
             
@@ -45,12 +41,7 @@ const Images = ({ image }) => {
                         <div className="modal-info">
                             <h3>{image.tags || 'Sin título'}</h3>
                             <p>📸 Fotógrafo: {image.user || 'Desconocido'}</p>
-                            <div className="modal-stats">
-                                <span>❤️ Me gusta: {image.likes || 0}</span>
-                                <span>👁️ Visualizaciones: {image.views || 0}</span>
-                                <span>💬 Comentarios: {image.comments || 0}</span>
-                                <span>📏 Dimensiones: {image.imageWidth}x{image.imageHeight}</span>
-                            </div>
+                            {/* Estadísticas removidas para interfaz más limpia */}
                         </div>
                     </div>
                 </div>
