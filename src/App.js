@@ -38,7 +38,7 @@ const App = () => {
   const getLocationName = async (latitude, longitude) => {
     try {
       const response = await fetch(
-        `https://api.geoapify.com/v1/geocode/reverse?lat=${latitude}&lon=${longitude}&apiKey=${process.env.REACT_APP_POSITION_KEY}`
+        `https://api.geoapify.com/v1/geocode/reverse?lat=${latitude}&lon=${longitude}&lang=es&apiKey=${process.env.REACT_APP_POSITION_KEY}`
       );
       const data = await response.json();
       
