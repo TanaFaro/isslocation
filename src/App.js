@@ -18,9 +18,8 @@ const App = () => {
   // Función para obtener la posición actual de la ISS
   const getIssPosition = async () => {
     try {
-      const response = await axios.get('https://api.open-notify.org/iss-now.json');
-      const { latitude, longitude } = response.data.iss_position;
-      const timestamp = response.data.timestamp;
+      const response = await axios.get('https://api.wheretheiss.at/v1/satellites/25544');
+      const { latitude, longitude, timestamp } = response.data;
       
       setIssPosition({ latitude: parseFloat(latitude), longitude: parseFloat(longitude) });
       setLastUpdate(new Date(timestamp * 1000));
